@@ -1,5 +1,13 @@
 # Fask-Docker-Machine_Learning
-Adopting Machine Learning Model by and flask and docker
+
+# Adopting Machine Learning Model by and flask and docker
+
+![image](https://user-images.githubusercontent.com/82649993/158072280-fb9ef993-452d-40ec-a190-915bc82c2705.png)
+
+![image](https://user-images.githubusercontent.com/82649993/158072301-0c4c0a9a-9cc5-489c-8b45-b61933f9331d.png)
+
+![image](https://user-images.githubusercontent.com/82649993/158072341-80842944-7730-483d-a08a-bf16419f00d8.png)
+
 
 # Stage 1: ML Stage
  Machine Learning Model Training and Saving:
