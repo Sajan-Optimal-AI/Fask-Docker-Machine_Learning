@@ -6,7 +6,9 @@ Adopting Machine Learning Model by and flask and docker
   Its a Banknote Authentication usecase and the csv dataset is labelled with 0 and 1..0 stands for no authentication and 1 stands for authentication.
   
 CSV structure is as follows:
+
 ![image](https://user-images.githubusercontent.com/82649993/158071523-36525b2c-ea56-4ba9-8556-9784b95ec358.png)
+
 And the accuracy of Random Forest Classifier in 99 % which perhaps overfitting could be finetuned in code level.Saved Model is saved in sorce foilder as "Classifier.pkl"
 
 # Stage 2: Flask and POSTMAN
@@ -29,10 +31,14 @@ Now Flask APP is come up with Flasgger Front end which could be seen at http:...
 Now, Docker Commands are,
 
 ![image](https://user-images.githubusercontent.com/82649993/158071912-6b216a44-9f84-4490-9c76-fa90fd6effdc.png)
+
 And the build commands are,
 AT Powershell, 
+
 1.Navigate to the root folder>>>>>>>>>>> example: PS C:\Users\Welcome\Desktop\Imp\newcode\flask_docker>
 2.Build the Imgae >>>>>>example:   docker build -t banknote_authentication_api .
 3.After the build>>> Run the Image>>>>example:  docker run -p 8000:8000 banknote_authentication_api
+
 ![image](https://user-images.githubusercontent.com/82649993/158072044-387b2d5f-9d7b-42b8-940d-764b9a69f92a.png)
+
 Even though the port here mentioned is  http://172.17.0.2:8000/ , the app is opening at http://192.168.18.13:8000/apidocs/ .Pls be aware......
