@@ -15,7 +15,9 @@ And the accuracy of Random Forest Classifier in 99 % which perhaps overfitting c
 Flask App is developed to contain Inference of ML model along with HTTP request "GET" and "POST" Methods.
 
 ![image](https://user-images.githubusercontent.com/82649993/158071653-8a66202a-5db4-4e1c-a90e-75dd52e262c5.png)
+
 In Order to Check the outputs "POSTMAN" is used.
+
 
 ![image](https://user-images.githubusercontent.com/82649993/158071709-be91a345-d652-4cee-b55c-60b78c6390e0.png)
 
@@ -35,9 +37,9 @@ Now, Docker Commands are,
 And the build commands are,
 AT Powershell, 
 
-1.Navigate to the root folder>>>>>>>>>>> example: PS C:\Users\Welcome\Desktop\Imp\newcode\flask_docker>
-2.Build the Imgae >>>>>>example:   docker build -t banknote_authentication_api .
-3.After the build>>> Run the Image>>>>example:  docker run -p 8000:8000 banknote_authentication_api
+# 1.Navigate to the root folder>>>>>>>>>>> example: PS C:\Users\Welcome\Desktop\Imp\newcode\flask_docker>
+# 2.Build the Imgae >>>>>>example:   docker build -t banknote_authentication_api .
+# 3.After the build>>> Run the Image>>>>example:  docker run -p 8000:8000 banknote_authentication_api
 
 ![image](https://user-images.githubusercontent.com/82649993/158072044-387b2d5f-9d7b-42b8-940d-764b9a69f92a.png)
 
